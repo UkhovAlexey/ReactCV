@@ -13,8 +13,7 @@ const Home = () => {
                 HTML, CSS , Sass / Scss / Less <br />
                 JavaScript, BootStrap <br />
                 ReactJS <br />
-                Git / GitHub <br />
-                CMS Tilda, CMS Wordpress
+                Git / GitHub
               </p>
             </li>
             <li className="content-list__item">

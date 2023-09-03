@@ -1,0 +1,12 @@
+.currentTime {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-left: 70px;
+}
+
+.currentTime div {
+  width: 200px;
+  text-align: left;
+
+}

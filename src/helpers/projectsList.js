@@ -32,7 +32,6 @@ const projects = [
     discription: "The site is made with ReactJS. Various hooks and components are used.",
     gitHubLink: "https://github.com/UkhovAlexey/ReactCV",
     link: "https://ukhovalexd.com/",
-
     img: project002,
     imgBig: project002big,
   },
@@ -43,7 +42,6 @@ const projects = [
     stack: "Vanilla Javascript",
     discription:
       "Human design website. The customer, who had a website on Tilda, set the task to add a feature that was not in the CMS. The problem was solved by adding Javascript code to the page.",
-    gitHubLink: "https://github.com/",
     link: "https://arinalazareva.com/gift",
     img: project004,
     imgBig: project004big,
@@ -55,7 +53,6 @@ const projects = [
     stack: "CMS Wordpress",
     discription:
       "A small website created on the Wordpress platform. Created using standard functions and plug-ins. The decision to create on Wordpress was due to the Customer's plan to subsequently add the functionality of the online store.",
-    // gitHubLink: "https://github.com/",
     link: "https://ollyla.com/",
 
     img: project005,
@@ -79,7 +76,7 @@ const projects = [
     stack: "CMS Tilda • Zero-block",
     discription:
       "The website advertises a program of sales improvement course. Created on CMS Tilda using Zero-block. Adapted for mobile devices.",
-    link: "https://ollyin.com/",
+    link: "http://na-proriv.tilda.ws",
     img: project007,
     imgBig: project007big,
   },

@@ -1,11 +1,17 @@
 import React from "react";
 import Moment from "react-moment";
+import "moment-timezone";
 import "./style.css";
 
-const CurrentTime = () => {
+const CurrentTime = ({ timeZone, city }) => {
   return (
     <>
-        <Moment format="HH:mm DD.MM.YY" interval={1000} />
+      <div className="currentTime">
+        <div> {city}</div>
+        <div>
+          <Moment tz={timeZone} format="HH:mm • dddd" interval={1000} />
+        </div>
+      </div>
     </>
   );
 };

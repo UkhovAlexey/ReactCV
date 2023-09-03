@@ -26,7 +26,6 @@ const BtnRect = ({ link, img, text, target }) => {
       </NavLink>
     );
   }
-
   return <div>{output}</div>;
 };
 

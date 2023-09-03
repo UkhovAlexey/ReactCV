@@ -8,13 +8,24 @@ const Contacts = () => {
 
         <ul className="content-list">
           <li className="content-list__item">
-            <h2 className="title-2">Location</h2>
-            <p>Podgorica, Montenegro (MSK -1h) </p>
-            <p>Yekaterinburg, Russia (MSK +2h)</p>
-            {<CurrentTime />}
+            <h2 className="title-2">Locations</h2>
+            {
+              <CurrentTime
+                city="Podgorica, Montenegro"
+                timeZone="Europe/Podgorica"
+              />
+            }
+            {
+              <CurrentTime
+                city="Yekaterinburg, Russia"
+                timeZone="Asia/Yekaterinburg"
+              />
+            }
+            {<CurrentTime city="Moscow, Russia" timeZone="Europe/Moscow" />}
           </li>
           <li className="content-list__item">
             <h2 className="title-2">Telegram</h2>
+            Preferred method for calls and messages:
             <p>
               <a href="https://t.me/Alx_Uk" target="_blank" rel="noreferrer">
                 @Alx_Uk

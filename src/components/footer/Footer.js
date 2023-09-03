@@ -26,7 +26,7 @@ const footer = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/AlexUk-JS"
+                href="https://github.com/UkhovAlexey"
               >
                 <img src={gitHub} alt="Link" />
               </a>
