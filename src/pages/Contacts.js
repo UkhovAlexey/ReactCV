@@ -25,7 +25,7 @@ const Contacts = () => {
           </li>
           <li className="content-list__item">
             <h2 className="title-2">Telegram</h2>
-            Preferred method for calls and messages:
+            Calls and messages:
             <p>
               <a href="https://t.me/Alx_Uk" target="_blank" rel="noreferrer">
                 @Alx_Uk

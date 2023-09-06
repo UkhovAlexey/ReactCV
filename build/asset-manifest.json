@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.f31b5da8.css",
-    "main.js": "/static/js/main.2ec896a7.js",
+    "main.js": "/static/js/main.e8864d2c.js",
     "static/js/787.067a4f55.chunk.js": "/static/js/787.067a4f55.chunk.js",
     "static/media/header-bg-dark.png": "/static/media/header-bg-dark.43c5b2b2a525242a9d7d.png",
     "static/media/005big.jpg": "/static/media/005big.6cebcbb65ae7053b59e6.jpg",
-    "static/media/CV - Ukhov Alexey - Front-end.pdf": "/static/media/CV - Ukhov Alexey - Front-end.22f39b8b8577b5c87040.pdf",
     "static/media/001big.jpg": "/static/media/001big.136ca335f766f84adf52.jpg",
     "static/media/007big.jpg": "/static/media/007big.3aa70d1c1f8e2bcb63b6.jpg",
+    "static/media/CV - Ukhov Alexey - Frontend.pdf": "/static/media/CV - Ukhov Alexey - Frontend.e8e7fd1e59c4ca61ef56.pdf",
     "static/media/006big.jpg": "/static/media/006big.c7e9184f672ca6f19009.jpg",
     "static/media/004big.jpg": "/static/media/004big.e6aa15ded68cfebbbe50.jpg",
     "static/media/002big.jpg": "/static/media/002big.184f9a33e6c7c0228ff3.jpg",
@@ -28,11 +28,11 @@
     "static/media/moon.svg": "/static/media/moon.829f022e764b1d37016e364c5447dfdb.svg",
     "index.html": "/index.html",
     "main.f31b5da8.css.map": "/static/css/main.f31b5da8.css.map",
-    "main.2ec896a7.js.map": "/static/js/main.2ec896a7.js.map",
+    "main.e8864d2c.js.map": "/static/js/main.e8864d2c.js.map",
     "787.067a4f55.chunk.js.map": "/static/js/787.067a4f55.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f31b5da8.css",
-    "static/js/main.2ec896a7.js"
+    "static/js/main.e8864d2c.js"
   ]
 }

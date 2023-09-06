@@ -1,6 +1,6 @@
 import "./style.css";
 
-import fileCV from "./../../files/CV - Ukhov Alexey - Front-end.pdf";
+import fileCV from "./../../files/CV - Ukhov Alexey - Frontend.pdf";
 
 const Header = () => {
   return (
