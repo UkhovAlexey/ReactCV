@@ -43,7 +43,12 @@ const Project = () => {
                   target="_blank"
                 />
               )}
-              <BtnRect img={backArrow} text="Go back" />
+              <BtnRect 
+                link="/projects" 
+                img={backArrow}
+                text="Go back"
+                target="_self"
+                />
             </div>
           </div>
         </div>
