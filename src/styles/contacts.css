@@ -1,0 +1,12 @@
+.contacts {
+    text-align: center;
+ 
+}
+
+.contacts >div {
+    margin-bottom: 20px;
+}
+
+.contacts a {
+    color: orange;
+}

@@ -1,6 +1,6 @@
 .footer {
 	margin-top: auto;
-	padding: 60px 0 50px;
+	padding: 20px 0 20px;
 	background-color: var(--footer-bg);
 	color: var(--footer-text);
 }
@@ -28,4 +28,14 @@
 
 .copyright p + p {
 	margin-top: 0.5em;
+}
+
+img {
+	filter: grayscale(60%);
+	transition: filter 0.5s;
+}
+
+img:hover {
+	filter: grayscale(0%);
+	transition: filter 0.5s;
 }

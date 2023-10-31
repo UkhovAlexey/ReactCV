@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-import BtnDarkMode from "../btnDarkMode/btnDarkMode";
-import "./style.css";
+// import BtnDarkMode from "../BtnDarkMode/BtnDarkMode";
+import "./navbar.css";
 
 const activeLink = "nav-list__link nav-list__link--active";
 const normalLink = "nav-list__link";
@@ -8,12 +8,12 @@ const normalLink = "nav-list__link";
 const Navbar = () => {
   return (
     <nav className="nav">
-      <div className="container">
         <div className="nav-row">
+
           <NavLink to="/" className="logo">
-            <strong>Alex Ukhov</strong> portfolio
+            
           </NavLink>
-          <BtnDarkMode />
+
           <ul className="nav-list">
             <li className="nav-list__item">
               <NavLink
@@ -45,10 +45,11 @@ const Navbar = () => {
                 Contacts
               </NavLink>
             </li>
+            {/* <li> <BtnDarkMode /></li> */}
           </ul>
+
         </div>
-      </div>
-    </nav>
+        </nav>
   );
 };
 

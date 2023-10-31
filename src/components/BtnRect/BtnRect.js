@@ -1,5 +1,3 @@
-import "./style.css";
-
 const BtnRect = ({ link, img, text, target }) => {
   let output;
   output = (

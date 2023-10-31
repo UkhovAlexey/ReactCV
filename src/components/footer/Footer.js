@@ -1,10 +1,10 @@
-import "./style.css";
+import "./footer.css";
 
 import telegram from "./../../img/icons/telegram.png";
 import email from "./../../img/icons/email.png";
 import gitHub from "./../../img/icons/github.png";
-import linkedIn from "./../../img/icons/linkedin.png";
-import behance from "./../../img/icons/behance.png";
+// import linkedIn from "./../../img/icons/linkedin.png";
+// import behance from "./../../img/icons/behance.png";
 
 const footer = () => {
   return (
@@ -31,7 +31,7 @@ const footer = () => {
                 <img src={gitHub} alt="Link" />
               </a>
             </li>
-            <li className="social__item">
+            {/* <li className="social__item">
               <a
                 target="_blank"
                 rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const footer = () => {
               >
                 <img src={behance} alt="Link" />
               </a>
-            </li>
+            </li> */}
           </ul>
           <div className="copyright">
             <p>© 2023 ukhovalexd.com</p>

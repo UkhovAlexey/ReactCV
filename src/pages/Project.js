@@ -6,25 +6,27 @@ import gitHubIconLinks from "./../img/iconsLinks/gitHubLinkIcon.png";
 import linkIcon from "./../img/iconsLinks/linkIcon.png";
 import backArrow from "./../img/iconsLinks/backArrow.png";
 
+import '../styles/project.css'
+
 const Project = () => {
   const { id } = useParams();
   const project = projects[id];
 
   return (
     <>
-      <main className="section">
-        <div className="container">
+      {/* <main className="section"> */}
+        {/* <div className="container"> */}
           <div className="project-details">
-            <h1 className="title-1">{project.title}</h1>
+            <h1 className="text-header">{project.title}</h1>
             <img
               src={project.imgBig}
               alt="{project.title}"
               className="project-details__cover"
             />
             <div className="project-details__desc">
-              <p className="textType">{project.type}</p>
-              <p className="textStack">{project.stack}</p>
-              <p className="textDiscription">{project.discription}</p>
+              <p className="text-header">{project.type}</p>
+              <p className="text-normal">{project.stack}</p>
+              <p className="text-normal">{project.discription}</p>
             </div>
             <div className="btnLinks">
               {project.gitHubLink && (
@@ -51,8 +53,8 @@ const Project = () => {
                 />
             </div>
           </div>
-        </div>
-      </main>
+        {/* </div> */}
+      {/* </main> */}
     </>
   );
 };

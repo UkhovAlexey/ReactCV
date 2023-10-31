@@ -18,7 +18,7 @@ const projects = [
     title: "Interior design website",
     type: "Commercial project",
     stack: "HTML • CSS  • Sass • JavaScript • Bootstrap",
-    discription: "The site is made using HTML, Sass, JavaScript, Bootstrap. Landscape and portrait versions for mobile are made using media-queries. Carousel is implemented using bootstrap.",
+    discription: "Interior design website. This site made using HTML, Sass, JavaScript, Bootstrap. Landscape and portrait versions for mobile are made using media-queries. Carousel is implemented using bootstrap.",
     gitHubLink: "https://github.com/UkhovAlexey/InteriorDesign",
     link: "https://ollyin.com/",
     img: project001,
@@ -26,10 +26,10 @@ const projects = [
   },
   {
     id: "project002",
-    title: "Alex Ukhov CV",
+    title: "Portfolio",
     type: "Pet-project",
-    stack: "HTML • CSS • JavaScript • ReactJS",
-    discription: "The site is made with ReactJS. Various hooks and components are used.",
+    stack: "HTML • CSS • JavaScript • React",
+    discription: "My portfolio. The site is made with React. Various hooks and components are used.",
     gitHubLink: "https://github.com/UkhovAlexey/ReactCV",
     link: "https://ukhovalexd.com/",
     img: project002,
@@ -37,7 +37,7 @@ const projects = [
   },
   {
     id: "project004",
-    title: "Human design website",
+    title: "Code adding",
     type: "Commercial project",
     stack: "Vanilla Javascript",
     discription:
@@ -52,7 +52,7 @@ const projects = [
     type: "Commercial project",
     stack: "CMS Wordpress",
     discription:
-      "A small website created on the Wordpress platform. Created using standard functions and plug-ins. The decision to create on Wordpress was due to the Customer's plan to subsequently add the functionality of the online store.",
+      "Landscape design website. A small website created on the Wordpress platform. Created using standard functions and plug-ins. The decision to create on Wordpress was due to the Customer's plan to subsequently add the functionality of the online store.",
     link: "https://ollyla.com/",
 
     img: project005,
@@ -64,7 +64,7 @@ const projects = [
     type: "Commercial project",
     stack: "CMS Tilda • Zero-block • Animation",
     discription:
-      "A website created on CMS Tilda using Zero-block and animations. Adapted for mobile devices.",
+      "Cowboy academy. Website created on CMS Tilda using Zero-block and animations. Adapted for mobile devices.",
     link: "https://www.tudorcowboyacademy.ru/",
     img: project006,
     imgBig: project006big,
@@ -75,7 +75,7 @@ const projects = [
     type: "Commercial project",
     stack: "CMS Tilda • Zero-block",
     discription:
-      "The website advertises a program of sales improvement course. Created on CMS Tilda using Zero-block. Adapted for mobile devices.",
+      "Sales improvement course. The website advertises a program of sales improvement course. Created on CMS Tilda using Zero-block. Adapted for mobile devices.",
     link: "http://na-proriv.tilda.ws",
     img: project007,
     imgBig: project007big,

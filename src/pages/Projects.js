@@ -1,11 +1,12 @@
 import Project from "../components/project/Project";
 import { projects } from "./../helpers/projectsList";
+import '../styles/projects.css'
 
 const Projects = () => {
   return (
-    <main className="section">
-      <div className="container">
-        <h2 className="title-1">Projects</h2>
+   
+      <>
+        <h2 className="text-title">Projects</h2>
         <ul className="projects">
           {projects.map((project, index) => {
             return (
@@ -18,8 +19,8 @@ const Projects = () => {
             );
           })}
         </ul>
-      </div>
-    </main>
+        </>
+
   );
 };
 
