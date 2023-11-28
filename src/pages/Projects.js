@@ -4,7 +4,6 @@ import '../styles/projects.css'
 
 const Projects = () => {
   return (
-   
       <>
         <h2 className="text-title">Projects</h2>
         <ul className="projects">
@@ -20,7 +19,6 @@ const Projects = () => {
           })}
         </ul>
         </>
-
   );
 };
 

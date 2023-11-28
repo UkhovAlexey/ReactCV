@@ -11,19 +11,8 @@ const Home = () => {
 my summary, or to see some examples of my work, as well as find my contacts. This page is constantly updated both in design and content, as inspiration comes. The github version is not final, but changes as new ideas appear and are implemented. I will be glad to cooperate with you and have interesting dialogues. <br/>Thank you for visiting my
             page!
           </p>
-
-          <a
-            href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=1M2KumiEJQsp-65QPyBVZ6aCbuiLXF3l9"
-            download
-            target="_blank"
-            rel="noreferrer noopener"
-            className="btn"
-          >
-            Download summary
-          </a>
         </div>
       </div>
-
       <div className="stack">
         <ul className="list">
           <li className="list-item typing-effect">

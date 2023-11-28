@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
-// import BtnDarkMode from "../BtnDarkMode/BtnDarkMode";
 import "./navbar.css";
+import ToggleColorSchemeButton from "../Theme/ToggleColorSchemeButton"
 
 const activeLink = "nav-list__link nav-list__link--active";
 const normalLink = "nav-list__link";
@@ -9,13 +9,10 @@ const Navbar = () => {
   return (
     <nav className="nav">
         <div className="nav-row">
-
           <NavLink to="/" className="logo">
-            
           </NavLink>
-
           <ul className="nav-list">
-            <li className="nav-list__item">
+            <li >
               <NavLink
                 to="/"
                 className={({ isActive }) =>
@@ -25,7 +22,7 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            <li className="nav-list__item">
+            <li >
               <NavLink
                 to="/projects"
                 className={({ isActive }) =>
@@ -35,7 +32,7 @@ const Navbar = () => {
                 Projects
               </NavLink>
             </li>
-            <li className="nav-list__item">
+            <li >
               <NavLink
                 to="/contacts"
                 className={({ isActive }) =>
@@ -45,9 +42,10 @@ const Navbar = () => {
                 Contacts
               </NavLink>
             </li>
-            {/* <li> <BtnDarkMode /></li> */}
+            <li>
+            <ToggleColorSchemeButton/>
+            </li>
           </ul>
-
         </div>
         </nav>
   );

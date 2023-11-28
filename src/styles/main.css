@@ -1,18 +1,42 @@
 @import './reset.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-:root {
-	--title-color: #222222;
-	--header-color: #3f3f3f;
-	--text-color: rgb(110, 110, 110);
-} 
+  :root {
+	background-color: #fff;
+	--elem-bg-grad-top: #ffffff;
+	--elem-bg-grad-bottom: #e6e6e6;
+	--rectangle-color: black;
+	color: var(--rectangle-color);
+	--btn-active-bgc: rgb(255, 99, 9);
+	--shadow-bottom-color: #b5b5b5;	
+	--shadow-top-color: #ffffff;
+	--themeButton-bgc: #ffffff;
+	--themeButton-inset-bottom: #d9d9d9;
+	--themeButton-inset-top: #ffffff;
+	--btn-img-invert: 0;
+  }
+
+  .night-mode {
+	background-color: #212124;
+	--elem-bg-grad-top: #232327;
+	--elem-bg-grad-bottom: #1e1e20;
+	--rectangle-color: #fff;
+	color: var(--rectangle-color);
+	--btn-active-bgc: #EA5600;
+	--shadow-bottom-color: #17171a;	
+	--shadow-top-color: #2b2b2e;
+	--themeButton-bgc: #1e1e20;
+	--themeButton-inset-bottom: #1a1a1b;
+	--themeButton-inset-top: #232325;
+	--btn-img-invert: 1;
+  }
 
 h1, .text-title {
-	margin: 30px;
+	margin: 15px;
 	font-size: 42px;
 	font-weight: 700;
 	line-height: 1.3;
-	color: var(--title-color);
+	color: var(--rectangle-color);
 	text-align: center;
 }
 
@@ -20,13 +44,13 @@ h2, .text-header {
 	font-size: 28px;
 	font-weight: 700;
 	line-height: 1.3;
-	color: var(--header-color);
+	color: var(--rectangle-color);
 }
 
 h3, .text-normal {
 	font-size: 18px;
 	line-height: 1.5;
-	color: var(--text-color);
+	color: var(--rectangle-color);
 }
 
 html,
@@ -34,7 +58,6 @@ body {
 	min-height: 100vh;
 	min-width: 500px;
 	font-family: 'Montserrat', sans-serif;
-	text-shadow: rgb(151, 151, 151) 3px 3px 20px;
 }
 
 #root {
@@ -50,5 +73,13 @@ body {
 .none {
 	display: none !important;
 }
+
+
+
+
+
+  
+
+  
 
 

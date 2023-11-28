@@ -4,7 +4,6 @@ import { projects } from "./../helpers/projectsList";
 import BtnRect from "../components/BtnRect/BtnRect";
 import gitHubIconLinks from "./../img/iconsLinks/gitHubLinkIcon.png";
 import linkIcon from "./../img/iconsLinks/linkIcon.png";
-import backArrow from "./../img/iconsLinks/backArrow.png";
 
 import '../styles/project.css'
 
@@ -14,8 +13,6 @@ const Project = () => {
 
   return (
     <>
-      {/* <main className="section"> */}
-        {/* <div className="container"> */}
           <div className="project-details">
             <h1 className="text-header">{project.title}</h1>
             <img
@@ -45,16 +42,8 @@ const Project = () => {
                   target="_blank"
                 />
               )}
-              <BtnRect 
-                link="/projects" 
-                img={backArrow}
-                text="Go back"
-                target="_self"
-                />
             </div>
           </div>
-        {/* </div> */}
-      {/* </main> */}
     </>
   );
 };

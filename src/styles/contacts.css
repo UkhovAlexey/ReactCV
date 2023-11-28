@@ -1,12 +1,35 @@
-.contacts {
-    text-align: center;
- 
-}
+  .contacts {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
 
-.contacts >div {
-    margin-bottom: 20px;
-}
+  .contacts > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+    height: 600px;
+    background: linear-gradient(145deg, var(--elem-bg-grad-top), var(--elem-bg-grad-bottom));
+    box-shadow: 5px 5px 10px var(--shadow-bottom-color), -5px -5px 10px var(--shadow-top-color);
+    min-width: 450px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 10px;
+  }
 
-.contacts a {
-    color: orange;
-}
+  .contacts-contacts h3 a {
+    color: var(--btn-active-bgc);
+  }
+  
+  .text-title {
+    margin-bottom: 60px; 
+  }
+  
+  .contacts-locations,
+  .contacts-contacts {
+    margin-bottom: 30px; 
+  }

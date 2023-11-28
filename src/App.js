@@ -8,12 +8,15 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contacts from "./pages/Contacts";
 import Project from "./pages/Project";
-
 import ScrollToTop from "./utils/scrollToTop";
+
+import { ThemeProvider } from '../src/components/Theme/ThemeContext';
+
 
 function App() {
   return (
     <div className="App">
+      <ThemeProvider>
       <Router>
         <ScrollToTop />
         <Navbar />
@@ -25,6 +28,7 @@ function App() {
         </Routes>
         <Footer />
       </Router>
+      </ThemeProvider>
     </div>
   );
 }

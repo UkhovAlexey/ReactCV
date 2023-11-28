@@ -40,15 +40,7 @@ const footer = () => {
                 <img src={linkedIn} alt="Link" />
               </a>
             </li>
-            <li className="social__item">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.behance.net/alex-web-design"
-              >
-                <img src={behance} alt="Link" />
-              </a>
-            </li> */}
+             */}
           </ul>
           <div className="copyright">
             <p>© 2023 ukhovalexd.com</p>

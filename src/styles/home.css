@@ -3,16 +3,18 @@
   flex: 1;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
 } 
 
 .home > div {
+  background: linear-gradient(145deg, var(--elem-bg-grad-top), var(--elem-bg-grad-bottom));
+  box-shadow: 5px 5px 10px var(--shadow-bottom-color), -5px -5px 10px var(--shadow-top-color);
   flex: 1;
   min-width: 300px;
   max-width: 600px;
   text-align: center;
-  min-height: 600px;
+  height: 600px;
   margin: 10px;
-  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff;
   border-radius: 20px;
   display: flex;
   justify-content: center;
@@ -28,44 +30,12 @@
   margin-top: 20px;
 }
 
-.btn {
-  margin-top: 20px;
-  display: inline-block;
-  padding: 12px 56px;
-  opacity: 0.8;
-  color: var(--text-color);
-  letter-spacing: 0.15px;
-  font-weight: 500;
-  transition: opacity 0.2s ease-in;
-  border-radius: 20px;
-  background: linear-gradient(145deg, #ffb600, #e69900);
-  filter: grayscale(100%);
-  transition: filter 0.5s;
-}
-
-.btn:hover {
-  opacity: 1;
-  filter: grayscale(0%);
-  transition: filter 0.5s;
-  border-radius: 20px;
-  background: linear-gradient(145deg, #ffb600, #e69900);
-  box-shadow: 5px 5px 15px #fed176, -5px -5px 15px #ffd685;
-}
-
-.btn:active {
-  position: relative;
-  top: 1px;
-  border-radius: 20px;
-  background: #ffaa00;
-  box-shadow: 20px 20px 60px #fed176, -20px -20px 60px #ffd685;
-}
-
 .blinking-rectangle {
   display: inline-block;
   width: 10px;
   height: 20px;
   margin-bottom: -3px;
-  background-color: black;
+  background-color: var(--rectangle-color);
   animation: blink 1s infinite;
 }
 
