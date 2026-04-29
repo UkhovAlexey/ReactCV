@@ -6,20 +6,24 @@ import gitHub from "./../../img/icons/github.png";
 // import linkedIn from "./../../img/icons/linkedin.png";
 // import behance from "./../../img/icons/behance.png";
 
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
         <div className="footer__wrapper">
           <ul className="social">
             <li className="social__item">
-              <a target="_blank" href=" https://t.me/Alx_uk">
-                <img src={telegram} alt="Link" />
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://t.me/Alx_uk"
+              >
+                <img src={telegram} alt="Telegram" />
               </a>
             </li>
             <li className="social__item">
               <a href="mailto:ukhovalexd@gmail.com">
-                <img src={email} alt="Link" />
+                <img src={email} alt="Email" />
               </a>
             </li>
             <li className="social__item">
@@ -28,7 +32,7 @@ const footer = () => {
                 rel="noopener noreferrer"
                 href="https://github.com/UkhovAlexey"
               >
-                <img src={gitHub} alt="Link" />
+                <img src={gitHub} alt="GitHub" />
               </a>
             </li>
             {/* <li className="social__item">
@@ -51,4 +55,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
