@@ -6,11 +6,13 @@ const ToggleColorSchemeButton = () => {
   const { isNightMode, toggleTheme } = useTheme();
 
   return (
-    <div>
-      <button className="schemeButton" onClick={toggleTheme}>
-        {isNightMode ? '#goLight' : '#goDark'}
-      </button>
-    </div>
+    <button
+      className="schemeButton"
+      onClick={toggleTheme}
+      aria-label={isNightMode ? "Switch to light mode" : "Switch to dark mode"}
+    >
+      {isNightMode ? 'Light' : 'Dark'}
+    </button>
   );
 };
 

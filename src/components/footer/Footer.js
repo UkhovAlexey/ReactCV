@@ -3,8 +3,6 @@ import "./footer.css";
 import telegram from "./../../img/icons/telegram.png";
 import email from "./../../img/icons/email.png";
 import gitHub from "./../../img/icons/github.png";
-// import linkedIn from "./../../img/icons/linkedin.png";
-// import behance from "./../../img/icons/behance.png";
 
 const Footer = () => {
   return (
@@ -17,12 +15,16 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://t.me/Alx_uk"
+                aria-label="Telegram"
               >
                 <img src={telegram} alt="Telegram" />
               </a>
             </li>
             <li className="social__item">
-              <a href="mailto:ukhovalexd@gmail.com">
+              <a
+                href="mailto:ukhovalexd@gmail.com"
+                aria-label="Email"
+              >
                 <img src={email} alt="Email" />
               </a>
             </li>
@@ -31,23 +33,14 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://github.com/UkhovAlexey"
+                aria-label="GitHub"
               >
                 <img src={gitHub} alt="GitHub" />
               </a>
             </li>
-            {/* <li className="social__item">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://linkedin.com/in/alexfrontend"
-              >
-                <img src={linkedIn} alt="Link" />
-              </a>
-            </li>
-             */}
           </ul>
           <div className="copyright">
-            <p>© 2023 ukhovalexd.com</p>
+            <p>© 2024 ukhovalexd.com</p>
           </div>
         </div>
       </div>

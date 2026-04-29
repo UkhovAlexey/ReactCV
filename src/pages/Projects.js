@@ -1,4 +1,4 @@
-import Project from "../components/project/Project";
+import Project from "../components/Project/Project";
 import { projects } from "./../helpers/projectsList";
 import '../styles/projects.css'
 
