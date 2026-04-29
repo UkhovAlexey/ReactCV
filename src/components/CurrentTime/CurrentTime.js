@@ -1,16 +1,35 @@
-import React from "react";
-import Moment from "react-moment";
-import "moment-timezone";
+import { useEffect, useState } from "react";
 import "./currentTime.css";
 
+const formatTime = (date, timeZone) => {
+  const time = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
+
+  const weekday = new Intl.DateTimeFormat("en-US", {
+    timeZone,
+    weekday: "long",
+  }).format(date);
+
+  return `${time} • ${weekday}`;
+};
+
 const CurrentTime = ({ timeZone, city }) => {
+  const [now, setNow] = useState(() => new Date());
+
+  useEffect(() => {
+    const id = setInterval(() => setNow(new Date()), 1000);
+    return () => clearInterval(id);
+  }, []);
+
   return (
-      <div className="currentTime text-normal">
-        <div> {city}</div>
-        <div>
-          <Moment tz={timeZone} format="HH:mm • dddd" interval={1000} />
-        </div>
-      </div>
+    <div className="currentTime text-normal">
+      <div>{city}</div>
+      <div>{formatTime(now, timeZone)}</div>
+    </div>
   );
 };
 

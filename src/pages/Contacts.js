@@ -30,7 +30,7 @@ const Contacts = () => {
               </h3>
               <h3>
                 Email:&nbsp;
-                <a href="mailto:webdev@protonmail.com">ukhovalexd@gmail.com</a>
+                <a href="mailto:ukhovalexd@gmail.com">ukhovalexd@gmail.com</a>
               </h3>
           </div>
           </div>
