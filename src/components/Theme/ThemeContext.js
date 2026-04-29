@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useState, useEffect } from 'react';
+import React, { createContext, useContext, useEffect } from 'react';
+import { useLocalStorage } from '../../utils/useLocalStorage';
 
 const ThemeContext = createContext();
 
@@ -6,19 +7,23 @@ export function useTheme() {
   return useContext(ThemeContext);
 }
 
+function getInitialTheme() {
+  if (typeof window !== 'undefined' && window.matchMedia) {
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  return false;
+}
+
 export function ThemeProvider({ children }) {
-  const [isNightMode, setIsNightMode] = useState(false);
+  const [isNightMode, setIsNightMode] = useLocalStorage('isNightMode', getInitialTheme());
 
   const toggleTheme = () => {
     setIsNightMode((prevMode) => !prevMode);
   };
 
   useEffect(() => {
-    if (isNightMode) {
-      document.documentElement.classList.add('night-mode');
-    } else {
-      document.documentElement.classList.remove('night-mode');
-    }
+    document.documentElement.classList.toggle('night-mode', isNightMode);
   }, [isNightMode]);
 
   return (
